@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: j
+  description: j
+  annotations: 
+    github.com/project-slug: hmcts-test/test-access-5
+    backstage.io/github-actions-id: hmcts-test/test-access-5
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
